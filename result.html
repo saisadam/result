@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- SEO Meta Tags -->
+  <meta name="description" content="Check Prakasam Engineering College Autonomus Students can check B.Tech student results by entering your roll number like 23F91A05F1. Fast and reliable result portal created by Sai Sadam." />
+  <meta name="keywords" content="student result, btech results, sai sadam, github pages result, 23F91A05F1, online marksheet, JNTUK results, 2sPrakasam Engineering College,kandukur btech college, B.Tech CSE results, pec results, Engineering,kancharla," />
+  <meta name="author" content="Sai Sadam" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Tags (for social sharing) -->
+  <meta property="og:title" content="Student Result Portal | Sai Sadam" />
+  <meta property="og:description" content="View your B.Tech results online instantly. Enter roll number and get results." />
+  <meta property="og:url" content="https://saisadam.github.io/result/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.shiksha.com/mediadata/images/articles/1680680781phpHLjXst.jpeg" />
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSE 3 RESULTS</title>
+
+  <!-- Avoid using file paths like C:\ on websites. Use relative paths or host the image -->
+  <link rel="icon" type="jpg" href="https://prakasamec.com/images/logo-latest.jpg" /> 
+  <link rel="stylesheet" href="styles.css" />
+  <script src="java.js" defer></script> <!-- defer makes sure script loads after HTML -->
+
+  <style>
+    footer .address {
+    color: black;
+    background-color:black;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: left;
+    
+    
+    
+}
+.address ul{
+    color:white;
+    list-style: none;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size:1.3rem;
+}
+p a{
+    text-decoration:none ;
+    color: antiquewhite;
+}
+footer{
+    background-color: black ;
+}
+ul img{
+    width: 400px;
+    height: 150;
+}
+  </style>
+</head>
+
+<script>
+function getResult() {
+  const roll = document.getElementById("roll").value.trim();
+
+  if (roll === "") {
+    alert("Please enter your Hall Ticket Number.");
+    return;
+  }
+
+  // Save to localStorage
+  localStorage.setItem("lastRoll", roll);
+
+  // ✅ Send roll number to Google Sheet
+  fetch("https://script.google.com/macros/s/AKfycby-VLNzLB0NUgg6JQNdgUdzLBu8tvXv8x1IfMr8MACNSuIJtr9t4OtdJDvlOPi7ZcHh/exec", {
+    method: "POST",
+    mode: "no-cors",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: `roll=${encodeURIComponent(roll)}`
+  });
+
+  // You can also call your result lookup code here
+  alert("Result fetched for: " + roll);
+}
+
+
+
+</script>
+
+
+
+
+<body>
+  <div id="showbar">
+     <header>
+    <nav class="navbar">
+      <ul class="bar">
+        <li><a href="index.html" accesskey="H">Home</a></li>
+        <li><a href="result.html" accesskey="R">Results</a></li>
+        <li><a href="latestnews.html" accesskey="N">Latest News</a></li>
+        <li><a href="AboutUs.html" accesskey="A">About Us</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  </div>
+ 
+  <div class="logo">
+    <img src= "results.jpeg" alt="PEC"  > </img> 
+  </div>
+  
+  <br>
+  <br>
+  
+    
+    <h2> 
+      <marquee behavior="scroll" direction="left" >
+          PRAKSAM ENGINEERING COLLEGE (AUTONOMUS)
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           =>  Results for II B.TECH II Semester (R23) Regular Examinations May-2025 
+           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           Share With Your Friends 
+      </marquee>
+    </h2>
+<center> 
+    <section style="text-align: center;"> 
+      <h3>ROLL NUMBER:</h3> <br>
+      <br>
+      <form>
+      <input type="text" id="searchInput" placeholder="Enter Roll Number" required  maxlength="10" > </form>
+      <br /><br />
+      <br>
+      <br>
+        <div>
+    <button id="effect"  type="button" onclick="searchTable()">Get Result</button> 
+      </div>
+
+  <!-- ✅ Place JavaScript HERE -->
+  <script>
+    
+
+    // Example: Auto-focus on Enter key
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        document.getElementById("effect").focus();
+      }
+    });
+
+    
+  </script>
+
+
+      
+    </section>
+    
+    
+</center>
+    <br />
+
+
+   
+</div>
+
+    <table id="resultsTable" style="display:none; " border="1">
+      
+      <thead>   
+        <tr style="background-color: white;">
+          <td class="forimg" colspan="4" style="background-color: white;"> <img src="c:\Users\admin\OneDrive\Pictures\Screenshots\Screenshot (4).png" alt=""> </td>
+        </tr>
+        
+        <tr>
+          <th>Roll No</th>
+          <th>Sub Name</th>
+          <th>Internals</th>
+          <th>Grade</th>
+          <th>Credits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Use consistent formatting and remove extra spaces -->
+        <!-- All rows for 23F91A05F1 -->
+        <tr><td>23F91A05F1</td><td>Design Thinking & Innovation</td><td>25</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05F1</td><td>Managerial Economics and Financial Analysis</td><td>29</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05F1</td><td>Probability & Statistics</td><td>22</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F1</td><td>Operating Systems</td><td>22</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F1</td><td>Database Management Systems</td><td>28</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F1</td><td>Software Engineering</td><td>27</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F1</td><td>Operating Systems Lab</td><td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F1</td><td>Database Management Systems Lab</td><td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F1</td><td>Full Stack Development –I</td><td>25</td><td>A</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05F2 -->
+        <tr><td>23F91A05F2</td><td>Design Thinking & Innovation</td><td>21</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05F2</td><td>Managerial Economics and Financial Analysis</td><td>28</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05F2</td><td>Probability & Statistics</td><td>21</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F2</td><td>Operating Systems</td><td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F2</td><td>Database Management Systems</td><td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F2</td><td>Software Engineering</td><td>22</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F2</td><td>Operating Systems Lab</td><td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F2</td><td>Database Management Systems Lab</td><td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05F2</td><td>Full Stack Development –I</td><td>24</td><td>B</td><td>2.00</td></tr>
+
+       <!-- All rows for 23F91A05F3 -->
+        <tr><td>23F91A05F3</td><td>Design Thinking & Innovation</td><td>25</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05F3</td><td>Managerial Economics and Financial Analysis</td><td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05F3</td><td>Probability & Statistics</td><td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F3</td><td>Operating Systems</td><td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05F3</td><td>Database Management Systems</td><td>30</td><td>A</td><td>3.00</td></tr>
+        <tr><td>23F91A05F3</td><td>Software Engineering</td><td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05F3</td><td>Operating Systems Lab</td><td>29</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05F3</td><td>Database Management Systems Lab</td><td>27</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05F3</td><td>Full Stack Development –I</td><td>25</td><td>A</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05F4 -->
+        <tr><td>23F91A05F4</td><td>Design Thinking & Innovation</td><td>23</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05F4</td><td>Managerial Economics and Financial Analysis</td><td>29</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05F4</td><td>Probability & Statistics</td><td>17</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F4</td><td>Operating Systems</td><td>24</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F4</td><td>Database Management Systems</td><td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05F4</td><td>Software Engineering</td><td>26</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F4</td><td>Operating Systems Lab</td><td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F4</td><td>Database Management Systems Lab</td><td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F4</td><td>Full Stack Development –I</td><td>24</td><td>B</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05F5 -->
+        <tr><td>23F91A05F5</td><td>Design Thinking & Innovation</td><td>24</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05F5</td><td>Managerial Economics and Financial Analysis</td><td>30</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05F5</td><td>Probability & Statistics</td><td>22</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F5</td><td>Operating Systems</td><td>22</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F5</td><td>Database Management Systems</td><td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05F5</td><td>Software Engineering</td><td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F5</td><td>Operating Systems Lab</td><td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F5</td><td>Database Management Systems Lab</td><td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05F5</td><td>Full Stack Development –I</td><td>24</td><td>B</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05F6 -->
+        <tr><td>23F91A05F6</td><td>Design Thinking & Innovation</td><td>21</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05F6</td><td>Managerial Economics and Financial Analysis</td><td>30</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05F6</td><td>Probability & Statistics</td><td>24</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F6</td><td>Operating Systems</td><td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F6</td><td>Database Management Systems</td><td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F6</td><td>Software Engineering</td><td>24</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F6</td><td>Operating Systems Lab</td><td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05F6</td><td>Database Management Systems Lab</td><td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05F6</td><td>Full Stack Development –I</td><td>24</td><td>B</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05F8 -->
+        <tr><td>23F91A05F8</td><td>Design Thinking & Innovation</td><td>25</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05F8</td><td>Managerial Economics and Financial Analysis</td><td>30</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05F8</td><td>Probability & Statistics</td><td>23</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05F8</td><td>Operating Systems</td><td>25</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F8</td><td>Database Management Systems</td><td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05F8</td><td>Software Engineering</td><td>29</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F8</td><td>Operating Systems Lab</td><td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05F8</td><td>Database Management Systems Lab</td><td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05F8</td><td>Full Stack Development –I</td><td>25</td><td>A</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05F9 -->
+        <tr><td>23F91A05F9</td><td>Design Thinking & Innovation</td>                <td>24</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05F9</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05F9</td><td>Probability & Statistics</td>                    <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05F9</td><td>Operating Systems</td>                           <td>22</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F9</td><td>Database Management Systems</td>                 <td>27</td><td>A</td><td>3.00</td></tr>
+        <tr><td>23F91A05F9</td><td>Software Engineering</td>                        <td>27</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05F9</td><td>Operating Systems Lab</td>                       <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05F9</td><td>Database Management Systems Lab</td>             <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05F9</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05G0 -->
+        <tr><td>23F91A05G0</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G0</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05G0</td><td>Probability & Statistics</td>                    <td>20</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05G0</td><td>Operating Systems</td>                           <td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05G0</td><td>Database Management Systems</td>                 <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G0</td><td>Software Engineering</td>                        <td>26</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05G0</td><td>Operating Systems Lab</td>                       <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G0</td><td>Database Management Systems Lab</td>             <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G0</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05G1 -->
+        <tr><td>23F91A05G1</td><td>Design Thinking & Innovation</td>                <td>26</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G1</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05G1</td><td>Probability & Statistics</td>                    <td>22</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G1</td><td>Operating Systems</td>                           <td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05G1</td><td>Database Management Systems</td>                 <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G1</td><td>Software Engineering</td>                        <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G1</td><td>Operating Systems Lab</td>                       <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G1</td><td>Database Management Systems Lab</td>             <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G1</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05G2 -->
+        <tr><td>23F91A05G2</td><td>Design Thinking & Innovation</td>                <td>24</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G2</td><td>Managerial Economics and Financial Analysis</td> <td>26</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05G2</td><td>Probability & Statistics</td>                    <td>18</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G2</td><td>Operating Systems</td>                           <td>19</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05G2</td><td>Database Management Systems</td>                 <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G2</td><td>Software Engineering</td>                        <td>20</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05G2</td><td>Operating Systems Lab</td>                       <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G2</td><td>Database Management Systems Lab</td>             <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G2</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+
+        <!-- All rows for 23F91A05G3 -->
+        <tr><td>23F91A05G3</td><td>Design Thinking & Innovation</td>                <td>27</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G3</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G3</td><td>Probability & Statistics</td>                    <td>23</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G3</td><td>Operating Systems</td>                           <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G3</td><td>Database Management Systems</td>                 <td>25</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G3</td><td>Software Engineering</td>                        <td>21</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G3</td><td>Operating Systems Lab</td>                       <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05G3</td><td>Database Management Systems Lab</td>             <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G3</td><td>Full Stack Development –I</td>                   <td>26</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05G4 -->
+        <tr><td>23F91A05G4</td><td>Design Thinking & Innovation</td>                <td>28</td><td>S</td><td>2.00</td></tr>
+        <tr><td>23F91A05G4</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G4</td><td>Probability & Statistics</td>                    <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G4</td><td>Operating Systems</td>                           <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G4</td><td>Database Management Systems</td>                 <td>28</td><td>A</td><td>3.00</td></tr>
+        <tr><td>23F91A05G4</td><td>Software Engineering</td>                        <td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G4</td><td>Operating Systems Lab</td>                       <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05G4</td><td>Database Management Systems Lab</td>             <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05G4</td><td>Full Stack Development –I</td>                   <td>28</td><td>S</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05G5 -->
+        <tr><td>23F91A05G5</td><td>Design Thinking & Innovation</td>                <td>27</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G5</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G5</td><td>Probability & Statistics</td>                    <td>22</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G5</td><td>Operating Systems</td>                           <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G5</td><td>Database Management Systems</td>                 <td>24</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G5</td><td>Software Engineering</td>                        <td>30</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G5</td><td>Operating Systems Lab</td>                       <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G5</td><td>Database Management Systems Lab</td>             <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G5</td><td>Full Stack Development –I</td>                   <td>26</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05G6 -->
+        <tr><td>23F91A05G6</td><td>Design Thinking & Innovation</td>                <td>24</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G6</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>F</td><td>0   </td></tr>
+        <tr><td>23F91A05G6</td><td>Probability & Statistics</td>                    <td>23</td><td> </td><td>3.00</td></tr>
+        <tr><td>23F91A05G6</td><td>Operating Systems</td>                           <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G6</td><td>Database Management Systems</td>                 <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G6/td><td>Software Engineering</td>                         <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G6</td><td>Operating Systems Lab</td>                       <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G6</td><td>Database Management Systems Lab</td>             <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G6</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05G7 -->
+        <tr><td>23F91A05G7</td><td>Design Thinking & Innovation</td>                <td>23</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G7</td><td>Managerial Economics and Financial Analysis</td> <td>25</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G7</td><td>Probability & Statistics</td>                    <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05G7</td><td>Operating Systems</td>                           <td>21</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05G7</td><td>Database Management Systems</td>                 <td>23</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05G7</td><td>Software Engineering</td>                        <td>19</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05G7</td><td>Operating Systems Lab</td>                       <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G7/td><td>Database Management Systems Lab</td>              <td>21</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05G7</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05G8 -->
+        <tr><td>23F91A05G8</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G8</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G8</td><td>Probability & Statistics</td>                    <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G8</td><td>Operating Systems</td>                           <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G8</td><td>Database Management Systems</td>                 <td>28</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G8</td><td>Software Engineering</td>                        <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G8</td><td>Operating Systems Lab</td>                       <td>29</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05G8</td><td>Database Management Systems Lab</td>             <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05G8</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05G9 -->
+        <tr><td>23F91A05G9</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05G9</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05G9</td><td>Probability & Statistics</td>                    <td>23</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05G9</td><td>Operating Systems</td>                           <td>23</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G9</td><td>Database Management Systems</td>                 <td>28</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G9</td><td>Software Engineering</td>                        <td>27</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05G9</td><td>Operating Systems Lab</td>                       <td>27</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05G9</td><td>Database Management Systems Lab</td>             <td>21</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05G9</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H0 -->
+        <tr><td>23F91A05H0</td><td>Design Thinking & Innovation</td>                <td>28</td><td>S</td><td>2.00</td></tr>
+        <tr><td>23F91A05H0</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05H0</td><td>Probability & Statistics</td>                    <td>23</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05H0</td><td>Operating Systems</td>                           <td>24</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05H0</td><td>Database Management Systems</td>                 <td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05H0</td><td>Software Engineering</td>                        <td>26</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H0</td><td>Operating Systems Lab</td>                       <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H0</td><td>Database Management Systems Lab</td>             <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05H0</td><td>Full Stack Development –I</td>                   <td>27</td><td>S</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H2 -->
+        <tr><td>23F91A05H2</td><td>Design Thinking & Innovation</td>                <td>27</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05H2</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H2</td><td>Probability & Statistics</td>                    <td>22</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05H2</td><td>Operating Systems</td>                           <td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05H2</td><td>Database Management Systems</td>                 <td>24</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H2</td><td>Software Engineering</td>                        <td>28</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05H2</td><td>Operating Systems Lab</td>                       <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H2</td><td>Database Management Systems Lab</td>             <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H2</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H3 -->
+        <tr><td>23F91A05H3</td><td>Design Thinking & Innovation</td>                <td>25</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05H3</td><td>Managerial Economics and Financial Analysis</td> <td>22</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H3</td><td>Probability & Statistics</td>                    <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H3</td><td>Operating Systems</td>                           <td>17</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05H3</td><td>Database Management Systems</td>                 <td>18</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05H3</td><td>Software Engineering</td>                        <td>21</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H3</td><td>Operating Systems Lab</td>                       <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05H3</td><td>Database Management Systems Lab</td>             <td>21</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05H3</td><td>Full Stack Development –I</td>                   <td>26</td><td>A</td><td>2.00</td></tr>  
+
+         <!-- All rows for 23F91A05H4 -->
+        <tr><td>23F91A05H4</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05H4</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05H4</td><td>Probability & Statistics</td>                    <td>24</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05H4</td><td>Operating Systems</td>                           <td>22</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H4</td><td>Database Management Systems</td>                 <td>27</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H4</td><td>Software Engineering</td>                        <td>24</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H4</td><td>Operating Systems Lab</td>                       <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H4</td><td>Database Management Systems Lab</td>             <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H4</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H5 -->
+        <tr><td>23F91A05H5</td><td>Design Thinking & Innovation</td>                <td>17</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Managerial Economics and Financial Analysis</td> <td>23</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Probability & Statistics</td>                    <td>19</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Operating Systems</td>                           <td>18</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Database Management Systems</td>                 <td>22</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Software Engineering</td>                        <td>19</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Operating Systems Lab</td>                       <td>18</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Database Management Systems Lab</td>             <td>18</td><td>ABSENT</td><td>0</td></tr>
+        <tr><td>23F91A05H5</td><td>Full Stack Development –I</td>                   <td>21</td><td>ABSENT</td><td>0</td></tr>
+
+         <!-- All rows for 23F91A05H6 -->
+        <tr><td>23F91A05H6</td><td>Design Thinking & Innovation</td>                <td>23</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05H6</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05H6</td><td>Probability & Statistics</td>                    <td>28</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H6</td><td>Operating Systems</td>                           <td>18</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H6</td><td>Database Management Systems</td>                 <td>25</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H6</td><td>Software Engineering</td>                        <td>25</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05H6</td><td>Operating Systems Lab</td>                       <td>26</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H6</td><td>Database Management Systems Lab</td>             <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05H6</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H7 -->
+        <tr><td>23F91A05H7</td><td>Design Thinking & Innovation</td>                <td>29</td><td>S</td><td>2.00</td></tr>
+        <tr><td>23F91A05H7</td><td>Managerial Economics and Financial Analysis</td> <td>29</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05H7</td><td>Probability & Statistics</td>                    <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05H7</td><td>Operating Systems</td>                           <td>26</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05H7</td><td>Database Management Systems</td>                 <td>30</td><td>A</td><td>3.00</td></tr>
+        <tr><td>23F91A05H7</td><td>Software Engineering</td>                        <td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05H7</td><td>Operating Systems Lab</td>                       <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05H7</td><td>Database Management Systems Lab</td>             <td>27</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05H7</td><td>Full Stack Development –I</td>                   <td>27</td><td>S</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H8 -->
+        <tr><td>23F91A05H8</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05H8</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05H8</td><td>Probability & Statistics</td>                    <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H8</td><td>Operating Systems</td>                           <td>22</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05H8</td><td>Database Management Systems</td>                 <td>27</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H8</td><td>Software Engineering</td>                        <td>28</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05H8</td><td>Operating Systems Lab</td>                       <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05H8</td><td>Database Management Systems Lab</td>             <td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05H8</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05H9 -->
+        <tr><td>23F91A05H9</td><td>Design Thinking & Innovation</td>                <td>17</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05H9</td><td>Managerial Economics and Financial Analysis</td> <td>24</td><td>E</td><td>2.00</td></tr>
+        <tr><td>23F91A05H9</td><td>Probability & Statistics</td>                    <td>16</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H9</td><td>Operating Systems</td>                           <td>19</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H9</td><td>Database Management Systems</td>                 <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H9</td><td>Software Engineering</td>                        <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05H9</td><td>Operating Systems Lab</td>                       <td>21</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05H9</td><td>Database Management Systems Lab</td>             <td>18</td><td>D</td><td>1.50</td></tr>
+        <tr><td>23F91A05H9</td><td>Full Stack Development –I</td>                   <td>20</td><td>ABSENT</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05I0 -->
+        <tr><td>23F91A05I0</td><td>Design Thinking & Innovation</td>                <td>28</td><td>S</td><td>2.00</td></tr>
+        <tr><td>23F91A05I0</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05I0</td><td>Probability & Statistics</td>                    <td>28</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05I0</td><td>Operating Systems</td>                           <td>26</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I0</td><td>Database Management Systems</td>                 <td>30</td><td>A</td><td>3.00</td></tr>
+        <tr><td>23F91A05I0</td><td>Software Engineering</td>                        <td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05I0</td><td>Operating Systems Lab</td>                       <td>29</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05I0</td><td>Database Management Systems Lab</td>             <td>29</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05I0</td><td>Full Stack Development –I</td>                   <td>28</td><td>S</td><td>2.00</td></tr>
+
+         <!-- All rows for 23F91A05I1 -->
+        <tr><td>23F91A05I1</td><td>Design Thinking & Innovation</td>                <td>28</td><td>S</td><td>2.00</td></tr>
+        <tr><td>23F91A05I1</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I1</td><td>Probability & Statistics</td>                    <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05I1</td><td>Operating Systems</td>                           <td>24</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I1</td><td>Database Management Systems</td>                 <td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05I1</td><td>Software Engineering</td>                        <td>30</td><td>A</td><td>3.00</td></tr>
+        <tr><td>23F91A05I1</td><td>Operating Systems Lab</td>                       <td>27</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05I1</td><td>Database Management Systems Lab</td>             <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05I1</td><td>Full Stack Development –I</td>                   <td>27</td><td>S</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05I2 -->
+        <tr><td>23F91A05I2</td><td>Design Thinking & Innovation</td>                <td>28</td><td>S</td><td>2.00</td></tr>
+        <tr><td>23F91A05I2</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I2</td><td>Probability & Statistics</td>                    <td>28</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05I2</td><td>Operating Systems</td>                           <td>25</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I2</td><td>Database Management Systems</td>                 <td>29</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05I2</td><td>Software Engineering</td>                        <td>28</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I2</td><td>Operating Systems Lab</td>                       <td>28</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05I2</td><td>Database Management Systems Lab</td>             <td>27</td><td>S</td><td>1.50</td></tr>
+        <tr><td>23F91A05I2</td><td>Full Stack Development –I</td>                   <td>29</td><td>S</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05I3 -->
+        <tr><td>23F91A05I3</td><td>Design Thinking & Innovation</td>                <td>25</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05I3</td><td>Managerial Economics and Financial Analysis</td> <td>29</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I3</td><td>Probability & Statistics</td>                    <td>26</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I3</td><td>Operating Systems</td>                           <td>20</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05I3</td><td>Database Management Systems</td>                 <td>24</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05I3</td><td>Software Engineering</td>                        <td>25</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05I3</td><td>Operating Systems Lab</td>                       <td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I3</td><td>Database Management Systems Lab</td>             <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05I3</td><td>Full Stack Development –I</td>                   <td>26</td><td>A</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05I4 -->
+        <tr><td>23F91A05I4</td><td>Design Thinking & Innovation</td>                <td>18</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05I4</td><td>Managerial Economics and Financial Analysis</td> <td>20</td><td>ABSENT</td><td>2.00</td></tr>
+        <tr><td>23F91A05I4</td><td>Probability & Statistics</td>                    <td>21</td><td>F</td><td>3.00</td></tr>
+        <tr><td>23F91A05I4</td><td>Operating Systems</td>                           <td>17</td><td>F</td><td>3.00</td></tr>
+        <tr><td>23F91A05I4</td><td>Database Management Systems</td>                 <td>21</td><td>F</td><td>3.00</td></tr>
+        <tr><td>23F91A05I4</td><td>Software Engineering</td>                        <td>17</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05I4</td><td>Operating Systems Lab</td>                       <td>21</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05I4</td><td>Database Management Systems Lab</td>             <td>18</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05I4</td><td>Full Stack Development –I</td>                   <td>23</td><td>ABSENT</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05I5 -->
+        <tr><td>23F91A05I5</td><td>Design Thinking & Innovation</td>                <td>21</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I5</td><td>Managerial Economics and Financial Analysis</td> <td>29</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I5</td><td>Probability & Statistics</td>                    <td>20</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I5</td><td>Operating Systems</td>                           <td>18</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05I5</td><td>Database Management Systems</td>                 <td>24</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I5</td><td>Software Engineering</td>                        <td>26</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05I5</td><td>Operating Systems Lab</td>                       <td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I5</td><td>Database Management Systems Lab</td>             <td>21</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I5</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05I6 -->
+        <tr><td>23F91A05I6</td><td>Design Thinking & Innovation</td>                <td>26</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05I6</td><td>Managerial Economics and Financial Analysis</td> <td>29</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I6</td><td>Probability & Statistics</td>                    <td>21</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05I6</td><td>Operating Systems</td>                           <td>20</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05I6</td><td>Database Management Systems</td>                 <td>27</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I6</td><td>Software Engineering</td>                        <td>27</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05I6</td><td>Operating Systems Lab</td>                       <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05I6</td><td>Database Management Systems Lab</td>             <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I6</td><td>Full Stack Development –I</td>                   <td>26</td><td>A</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05I7 -->
+        <tr><td>23F91A05I7</td><td>Design Thinking & Innovation</td>                <td>22</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05I7</td><td>Managerial Economics and Financial Analysis</td> <td>28</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05I7</td><td>Probability & Statistics</td>                    <td>24</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I7</td><td>Operating Systems</td>                           <td>18</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I7</td><td>Database Management Systems</td>                 <td>23</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I7</td><td>Software Engineering</td>                        <td>24</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05I7</td><td>Operating Systems Lab</td>                       <td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I7</td><td>Database Management Systems Lab</td>             <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I7</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+          
+         <!-- All rows for 23F91A05I9 -->
+        <tr><td>23F91A05I9</td><td>Design Thinking & Innovation</td>                <td>19</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05I9</td><td>Managerial Economics and Financial Analysis</td> <td>24</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05I9</td><td>Probability & Statistics</td>                    <td>21</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I9</td><td>Operating Systems</td>                           <td>19</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I9/td><td>Database Management Systems</td>                 <td>20</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I9</td><td>Software Engineering</td>                        <td>20</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05I9</td><td>Operating Systems Lab</td>                       <td>21</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05I9</td><td>Database Management Systems Lab</td>             <td>23</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05I9</td><td>Full Stack Development –I</td>                   <td>23</td><td>C</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J0 -->
+        <tr><td>23F91A05J0</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05J0</td><td>Managerial Economics and Financial Analysis</td> <td>26</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05J0</td><td>Probability & Statistics</td>                    <td>21</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05J0</td><td>Operating Systems</td>                           <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J0</td><td>Database Management Systems</td>                 <td>26</td><td>C</td><td>3.00</td></tr>
+        <tr><td>23F91A05J0</td><td>Software Engineering</td>                        <td>20</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05J0</td><td>Operating Systems Lab</td>                       <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J0</td><td>Database Management Systems Lab</td>             <td>21</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J0</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+  
+         <!-- All rows for 23F91A05J2 -->
+        <tr><td>23F91A05J2</td><td>Design Thinking & Innovation</td>                <td>22</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05J2</td><td>Managerial Economics and Financial Analysis</td> <td>24</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05J2</td><td>Probability & Statistics</td>                    <td>21</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05J2</td><td>Operating Systems</td>                           <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J2</td><td>Database Management Systems</td>                 <td>24</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J2</td><td>Software Engineering</td>                        <td>19</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J2</td><td>Operating Systems Lab</td>                       <td>21</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05J2</td><td>Database Management Systems Lab</td>             <td>19</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05J2</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J3 -->
+        <tr><td>23F91A05J3</td><td>Design Thinking & Innovation</td>                <td>23</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05J3</td><td>Managerial Economics and Financial Analysis</td> <td>19</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05J3</td><td>Probability & Statistics</td>                    <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J3</td><td>Operating Systems</td>                           <td>18</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J3</td><td>Database Management Systems</td>                 <td>20</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J3</td><td>Software Engineering</td>                        <td>27</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05J3</td><td>Operating Systems Lab</td>                       <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J3</td><td>Database Management Systems Lab</td>             <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J3</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J4 -->
+        <tr><td>23F91A05J4</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05J4</td><td>Managerial Economics and Financial Analysis</td> <td>25</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05J4</td><td>Probability & Statistics</td>                    <td>16</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J4</td><td>Operating Systems</td>                           <td>17</td><td>F/td><td>0</td></tr>
+        <tr><td>23F91A05J4</td><td>Database Management Systems</td>                 <td>20</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J4</td><td>Software Engineering</td>                        <td>26</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J4</td><td>Operating Systems Lab</td>                       <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J4</td><td>Database Management Systems Lab</td>             <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J4</td><td>Full Stack Development –I</td>                   <td>26</td><td>A</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J5 -->
+        <tr><td>23F91A05J5</td><td>Design Thinking & Innovation</td>                <td>27</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05J5</td><td>Managerial Economics and Financial Analysis</td> <td>28</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05J5</td><td>Probability & Statistics</td>                    <td>20</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05J5</td><td>Operating Systems</td>                           <td>18</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J5</td><td>Database Management Systems</td>                 <td>23</td><td>E</td><td>3.00</td></tr>
+        <tr><td>23F91A05J5</td><td>Software Engineering</td>                        <td>27</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05J5</td><td>Operating Systems Lab</td>                       <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05J5</td><td>Database Management Systems Lab</td>             <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05J5</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J6 -->
+        <tr><td>23F91A05J6</td><td>Design Thinking & Innovation</td>                <td>24</td><td>A</td><td>2.00</td></tr>
+        <tr><td>23F91A05J6</td><td>Managerial Economics and Financial Analysis</td> <td>30</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05J6</td><td>Probability & Statistics</td>                    <td>22</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05J6</td><td>Operating Systems</td>                           <td>23</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05J6</td><td>Database Management Systems</td>                 <td>27</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05J6</td><td>Software Engineering</td>                        <td>28</td><td>B</td><td>3.00</td></tr>
+        <tr><td>23F91A05J6</td><td>Operating Systems Lab</td>                       <td>25</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05J6</td><td>Database Management Systems Lab</td>             <td>24</td><td>A</td><td>1.50</td></tr>
+        <tr><td>23F91A05J6</td><td>Full Stack Development –I</td>                   <td>25</td><td>A</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J7 -->
+        <tr><td>23F91A05J7</td><td>Design Thinking & Innovation</td>                <td>24</td><td>B</td><td>2.00</td></tr>
+        <tr><td>23F91A05J7</td><td>Managerial Economics and Financial Analysis</td> <td>20</td><td>D</td><td>2.00</td></tr>
+        <tr><td>23F91A05J7</td><td>Probability & Statistics</td>                    <td>16</td><td>F</td><td>3.00</td></tr>
+        <tr><td>23F91A05J7</td><td>Operating Systems</td>                           <td>18</td><td>F</td><td>3.00</td></tr>
+        <tr><td>23F91A05J7</td><td>Database Management Systems</td>                 <td>22</td><td>F</td><td>3.00</td></tr>
+        <tr><td>23F91A05J7</td><td>Software Engineering</td>                        <td>24</td><td>D</td><td>3.00</td></tr>
+        <tr><td>23F91A05J7</td><td>Operating Systems Lab</td>                       <td>22</td><td>B</td><td>1.50</td></tr>
+        <tr><td>23F91A05J7</td><td>Database Management Systems Lab</td>             <td>20</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05J7</td><td>Full Stack Development –I</td>                   <td>24</td><td>B</td><td>2.00</td></tr>
+        
+         <!-- All rows for 23F91A05J8 -->
+        <tr><td>23F91A05J8</td><td>Design Thinking & Innovation</td>                <td>19</td><td>C</td><td>2.00</td></tr>
+        <tr><td>23F91A05J8</td><td>Managerial Economics and Financial Analysis</td> <td>23</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J8</td><td>Probability & Statistics</td>                    <td>20</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J8</td><td>Operating Systems</td>                           <td>17</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J8</td><td>Database Management Systems</td>                 <td>20</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J8</td><td>Software Engineering</td>                        <td>21</td><td>F</td><td>0</td></tr>
+        <tr><td>23F91A05J8</td><td>Operating Systems Lab</td>                       <td>21</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05J8</td><td>Database Management Systems Lab</td>             <td>18</td><td>C</td><td>1.50</td></tr>
+        <tr><td>23F91A05J8</td><td>Full Stack Development –I</td>                   <td>23</td><td>C</td><td>2.00</td></tr>           
+
+      </tbody>
+    </table>
+  </div>
+</body>
+<br>
+<br>
+<br>
+
+
+<footer>
+    <div class="address">
+    <ul>
+      <br>
+        <li style="font-size: 1.5rem; color: whitesmoke;">  College Address : </li> <br> 
+        <li>kandukur, SPSR Nellore District, Andhra Pradesh</li>
+        <li>EAPCET CODE : PKSK</li>
+        <li>Contact NO: +91 8598222288</li>
+        <li>Email: pec@prakasamec.com</li>
+
+        </ul>
+    
+        <ul>
+            <h4 style="color:white;font-size: 1.5rem;"> Route Map :</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.736808245977!2d79.87198747416207!3d15.227562961421585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b1254ceb3664f%3A0xc6e4bf61e1551637!2sPrakasam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1750681325215!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" " frameborder="0"></iframe>
+        </ul>
+        <ul>
+            <img src="https://m.media-amazon.com/images/I/610rUUUL6IL._UF1000,1000_QL80_.jpg" alt="" style="width:50;height: 40;">
+        </ul>
+    </div>
+    <p> Copyright &copy; 2025 | Github Pages | Prakasam Engineering College | All rights are reserved | Author <a href="https://www.instagram.com/sai_sadam_/">Sai Sadam</a></p>
+
+</footer>
+
+
+</html>

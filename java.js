@@ -1,9 +1,3 @@
- const StudentData = 
- {
-  "23F91A05F1": {Name: "SAJJALA THOMAS SPARJAN "},
-  "23F91A05F2": {Name: "PRAVALIKA"}
- };
- 
  
  function searchTable() {
   const input = document.getElementById("searchInput").value.trim().toUpperCase();
@@ -57,4 +51,7 @@
     
   }
 }
-
+if (input === "") {
+  alert("Please Enter your Roll Number");
+  
+}
