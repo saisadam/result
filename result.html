@@ -52,10 +52,7 @@ p a{
 footer{
     background-color: black ;
 }
-ul img{
-    width: 400px;
-    height: 150;
-}
+
   </style>
 </head>
 
@@ -97,23 +94,17 @@ function getResult() {
       <ul class="bar">
         <li><a href="index.html" accesskey="H">Home</a></li>
         <li><a href="result.html" accesskey="R">Results</a></li>
-        <li><a href="latestnews.html" accesskey="N">Latest News</a></li>
-        <li><a href="AboutUs.html" accesskey="A">About Us</a></li>
+        <li><a href="latestnews.html" accesskey="N">News</a></li>
+        <li><a href="AboutUs.html" accesskey="A">About</a></li>
         
       </ul>
     </nav>
   </header>
   </div>
- 
   <div class="logo">
     <img src= "results.jpeg" alt="PEC"  > </img> 
-  </div>
-  
-  <br>
-  <br>
-  
-    
     <h2> 
+      <center>
       <marquee behavior="scroll" direction="left" >
           PRAKSAM ENGINEERING COLLEGE (AUTONOMUS)
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -146,20 +137,21 @@ function getResult() {
            Share With Your Friends 
       </marquee>
     </h2>
+  </center> 
+</div>
 <center> 
     <section style="text-align: center;"> 
       <h3>ROLL NUMBER:</h3> <br>
       <br>
-      <form>
-      <input type="text" id="searchInput" placeholder="Enter Roll Number" required  maxlength="10" > </form>
-      <br /><br />
-      <br>
-      <br>
+      
+      <input type="text" id="searchInput" placeholder="Enter Roll Number" required  maxlength="10" > 
+    </section>  
+  
         <div>
     <button id="effect"  type="button" onclick="searchTable()">Get Result</button> 
       </div>
 
-  <!-- ✅ Place JavaScript HERE -->
+  <!--  JavaScript HERE -->
   <script>
     
 
@@ -169,20 +161,10 @@ function getResult() {
         document.getElementById("effect").focus();
       }
     });
-
-    
   </script>
-
-
       
-    </section>
-    
-    
 </center>
-    <br />
-
-
-   
+    <br />   
 </div>
 
     <table id="resultsTable" style="display:none; " border="1">
@@ -698,24 +680,18 @@ function getResult() {
 <footer>
     <div class="address">
     <ul>
-      <br>
-        <li style="font-size: 1.5rem; color: whitesmoke;">  College Address : </li> <br> 
+        <li style="font-size: 1.5rem;">  College Address : </li> <br> 
         <li>kandukur, SPSR Nellore District, Andhra Pradesh</li>
         <li>EAPCET CODE : PKSK</li>
         <li>Contact NO: +91 8598222288</li>
         <li>Email: pec@prakasamec.com</li>
-
-        </ul>
-    
-        <ul>
-            <h4 style="color:white;font-size: 1.5rem;"> Route Map :</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.736808245977!2d79.87198747416207!3d15.227562961421585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b1254ceb3664f%3A0xc6e4bf61e1551637!2sPrakasam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1750681325215!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" " frameborder="0"></iframe>
         </ul>
         <ul>
-            <img src="https://m.media-amazon.com/images/I/610rUUUL6IL._UF1000,1000_QL80_.jpg" alt="" style="width:50;height: 40;">
+            <h4 style="color:white ; font-size: 1.5rem;"> Route Map</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.736808245977!2d79.87198747416207!3d15.227562961421585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b1254ceb3664f%3A0xc6e4bf61e1551637!2sPrakasam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1750681325215!5m2!1sen!2sin"  style="border:0;" width="100%" max-width="200px"  height="120px" loading="lazy" referrerpolicy="no-referrer-when-downgrade" " frameborder="0"></iframe>
         </ul>
     </div>
-    <p> Copyright &copy; 2025 | Github Pages | Prakasam Engineering College | All rights are reserved | Author <a href="https://www.instagram.com/sai_sadam_/">Sai Sadam</a></p>
+    <p> Copyright &copy; 2025  <a href="https://www.instagram.com/sai_sadam_/">Sai Sadam</a> | Github Pages | Prakasam Engineering College |</p>
 
 </footer>
 
