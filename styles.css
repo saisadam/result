@@ -46,11 +46,13 @@ background-image: url("https://i.pinimg.com/originals/42/64/a4/4264a4ba598c17ef2
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-  width: 750px;
+  max-width: 300px;
   border: 5px solid rgb(211, 250, 150);
   padding: 20px;
   margin: 20px;
-  height: 33vh;
+  height: 18vh;
+  width: 80%;
+  
   
 }
 h3
@@ -115,7 +117,7 @@ tr{
   z-index: 1000;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 nav ul {
@@ -131,7 +133,7 @@ nav li {
 
 nav a {
   display: block;
-  padding: 10px 20px;
+  padding: 3px 8px;
   color: aqua;
   text-decoration: none;
   font-weight: bold;
@@ -142,22 +144,20 @@ nav a:hover {
   color: black;
 }
 .logo{
-  height: 100px;
+  
   width: 100%;
   text-align: center;
   background: no-repeat center/cover;
   margin: 0;
-  padding: 0 ;
-  padding-top: 3.7%;
+  padding-top: 50px;
   
 }
 .logo img{
-  width: 1348px;
-  height: 150px;
+  max-width: 315px;
+  height: 20vh;
   text-align: center;
   
-  padding: 0;
-  display: inline-block;
+  padding: 5px 5px;
   margin: 0 ;
 }
  .forimg{
