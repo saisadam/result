@@ -1,131 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME PAGE PEC</title>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page | PEC</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4e73df, #1cc88a);
+      color: #333;
+    }
+
+    /* Navbar */
     nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  padding: 0 5px;
-}
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      background-color: #000;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      z-index: 1000;
+    }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+    }
 
-nav li {
-  margin: 0 10px;
-}
+    nav a {
+      color: aqua;
+      text-decoration: none;
+      font-weight: bold;
+      font-style: italic;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
 
-nav a {
-  display: block;
-  padding: 3px 8px;
-  color: aqua;
-  text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-}
+    nav a:hover {
+      background-color: aliceblue;
+      color: #000;
+    }
 
-nav a:hover {
-  background-color: aliceblue;
-  color: black;
-}
-footer .address {
-    color: black;
-    background-color:black;
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    text-align: left;
-    background-repeat: repeat;
+    /* YouTube videos */
+    .yt {
+      margin-top: 1px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 20px;
+      padding: 2px;
+      justify-items: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    iframe:hover {
+      transform: scale(1.02);
+    }
+
+    /* Footer - compact design */
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 15px 20px;
+      font-size: 0.9rem;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .footer-address {
+      flex: 1;
+      min-width: 250px;
+      line-height: 1.4;
+    }
+
+    .footer-address strong {
+      font-size: 1rem;
+      color: aqua;
+    }
+
+    .footer-map iframe {
+      width: 250px;
+      height: 120px;
+      border: 0;
+      border-radius: 5px;
+    }
+
+    footer p {
+      text-align: center;
+      font-size: 0.85rem;
+      margin-top: 10px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: antiquewhite;
+      transition: 0.3s;
+    }
+
+    footer a:hover {
+      color: aqua;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .yt {
+        grid-template-columns: 1fr;
+      }
+      iframe {
+        height: 250px;
+      }
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer-map iframe {
+        width: 100%;
+
+      }
+    }
     
-    
-    
-}
-.address ul{
-    color:white;
-    list-style: none;
-}
-footer p{
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-size:1.3rem;
-}
-p a{
-    text-decoration:none ;
-    color: antiquewhite;
-}
-footer{
-    background-color: black ;
-}
-iframe{
-  width: 100%;
-}
-
-
-</style>
-
-
+  </style>
 </head>
 <body>
-  <div id="showbar">
-     <header>
-    <nav class="navbar">
-      <ul class="bar">
-        <li><a href="index.html" accesskey="H">Home</a></li>
-        <li><a href="result.html" accesskey="R">Results</a></li>
-        <li><a href="latestnews.html" accesskey="N"> News</a></li>
-        <li><a href="AboutUs.html" accesskey="A">About </a></li>
-        
-      </ul>
-    </nav>
-  </header>
-  </div> <br> 
-  <br>
-  <br>
-  <div>
-    <iframe max-width="560" height="315" src="https://www.youtube.com/embed/56Uurc_fgpQ?si=EpsuOAHXLSMY0qpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" width="device-width" allowfullscreen></iframe>
-  </div>
-  <br>
-  <div>
-    <iframe max-width="560" height="315" src="https://www.youtube.com/embed/DyVdDEMg-Sg?si=dib6G2uvSmkfbwQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <br>
-</body>
-<br>
-<br>
-<footer>
-    <div class="address">
+  <!-- Navbar -->
+  <nav>
     <ul>
-        <li style="font-size: 1.5rem;">  College Address : </li> <br> 
-        <li>kandukur, SPSR Nellore District, Andhra Pradesh</li>
-        <li>EAPCET CODE : PKSK</li>
-        <li>Contact NO: +91 8598222288</li>
-        <li>Email: pec@prakasamec.com</li>
-        </ul>
-        <ul>
-            <h4 style="color:white ; font-size: 1.5rem;"> Route Map</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.736808245977!2d79.87198747416207!3d15.227562961421585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b1254ceb3664f%3A0xc6e4bf61e1551637!2sPrakasam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1750681325215!5m2!1sen!2sin"  style="border:0;" width="100%" max-width="200px"  height="120px" loading="lazy" referrerpolicy="no-referrer-when-downgrade" " frameborder="0"></iframe>
-        </ul>
+      <li><a href="index.html" accesskey="H">Home</a></li>
+      <li><a href="result.html" accesskey="R">Results</a></li>
+      <li><a href="latestnews.html" accesskey="N">News</a></li>
+      <li><a href="AboutUs.html" accesskey="A">About</a></li>
+      <li><a href="Calculator.html" accesskey="C">Calculator</a></li>
+    </ul>
+  </nav>
+  <center>
+  <h1 style="padding:  50px ;  color: azure; text-decoration: underline ;" > Prakasam Engineering College Videos</h1> </center>
+  <!-- YouTube Video Section -->
+  <div class="yt" >
+    
+    <iframe src="https://www.youtube.com/embed/56Uurc_fgpQ" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/DyVdDEMg-Sg" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/dQVGljfcm0Q" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/aDV35xqlP2A" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/WeEo_T39t80" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/_Q5S9LjSS88" allowfullscreen></iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-address">
+        <strong>Prakasam Engineering College</strong><br>
+        Kandukur, SPSR Nellore District, Andhra Pradesh<br>
+        EAPCET CODE: PKSK<br>
+        Contact: +91 8598222288<br>
+        Email: pec@prakasamec.com
+      </div>
+      <div class="footer-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.736808245977!2d79.87198747416207!3d15.227562961421585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b1254ceb3664f%3A0xc6e4bf61e1551637!2sPrakasam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1750681325215!5m2!1sen!2sin"
+          allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
-    <p> Copyright &copy; 2025  <a href="https://www.instagram.com/sai_sadam_/">Sai Sadam</a> | Github Pages | Prakasam Engineering College |</p>
-
-</footer>
-
+    <p>&copy; 2025 <a href="https://www.instagram.com/sai_sadam_/">Sai Sadam</a> | Github Pages | Prakasam Engineering College</p>
+  </footer>
+</body>
 </html>
-
