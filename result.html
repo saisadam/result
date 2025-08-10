@@ -24,6 +24,10 @@
   <script src="java.js" defer></script> <!-- defer makes sure script loads after HTML -->
 
   <style>
+    body {
+    
+    background: linear-gradient(135deg, #4e73df, #1cc88a);  
+}
     footer .address {
     color: black;
     background-color:black;
@@ -96,17 +100,15 @@ function getResult() {
         <li><a href="result.html" accesskey="R">Results</a></li>
         <li><a href="latestnews.html" accesskey="N">News</a></li>
         <li><a href="AboutUs.html" accesskey="A">About</a></li>
-        
+        <li><a href="Calculator.html" accesskey="c">Calculator</a></li>
       </ul>
     </nav>
   </header>
   </div>
-  <div class="logo">
-    <img src= "results.jpeg" alt="PEC"  > </img> 
     <h2> 
       <center>
-      <marquee behavior="scroll" direction="left" >
-          PRAKSAM ENGINEERING COLLEGE (AUTONOMUS)
+      <marquee behavior="scroll" direction="left" style="padding: 35px ;">
+           =>  Results for II B.TECH II Semester (R23) Regular Examinations May-2025 
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -120,7 +122,7 @@ function getResult() {
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-           =>  Results for II B.TECH II Semester (R23) Regular Examinations May-2025 
+           => PRAKSAM ENGINEERING COLLEGE (AUTONOMUS) 
            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -134,13 +136,13 @@ function getResult() {
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-           Share With Your Friends 
+           Share  Your Result With Your Friends They are getting more anxiety about your result
       </marquee>
     </h2>
   </center> 
-</div>
+
 <center> 
-    <section style="text-align: center;"> 
+    <section style="text-align: center;  border-radius: 5px;"> 
       <h3>ROLL NUMBER:</h3> <br>
       <br>
       
@@ -150,6 +152,20 @@ function getResult() {
         <div>
     <button id="effect"  type="button" onclick="searchTable()">Get Result</button> 
       </div>
+
+
+      <script>
+        function searchTable() {
+          const roll = 
+          document.getElementById("searchInput").value ;
+          if (!roll) {
+            alret("please enter a roll number");
+            return;
+          }
+        }
+
+        </script>
+      
 
   <!--  JavaScript HERE -->
   <script>
@@ -166,20 +182,19 @@ function getResult() {
 </center>
     <br />   
 </div>
-
-    <table id="resultsTable" style="display:none; " border="1">
+<center>
+    <table id="resultsTable" style="display:none; "  >
       
       <thead>   
-        <tr style="background-color: white;">
-          <td class="forimg" colspan="4" style="background-color: white;"> <img src="tabletop.png" alt=""> </td>
-        </tr>
+        
         
         <tr>
-          <th>Roll No</th>
-          <th>Sub Name</th>
-          <th>Internals</th>
-          <th>Grade</th>
-          <th>Credits</th>
+          <th class="ra">Roll No</th>
+          <th class="subb">Sub Name</th>
+          <th class="inter">Internals</th>
+          <th class="grade">Grade</th>
+          <th class="credits">Credits</th>
+          
         </tr>
       </thead>
       <tbody>
@@ -670,6 +685,7 @@ function getResult() {
 
       </tbody>
     </table>
+    </center>
   </div>
 </body>
 <br>
