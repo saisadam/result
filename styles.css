@@ -1,8 +1,8 @@
     h2
     {
         font-style: italic;
-        color:black ;
-        background-color: rgb(253, 124, 19);
+        color:whitesmoke;
+        
     }
     input
     {
@@ -67,11 +67,14 @@ h3
 
 table {
   font-family: arial, sans-serif;
-  width: 750px;
-  height: 80vh;
-  font-size: 14px;
+  max-width:80%;
+  height: 10vh;
+  font-size:10px ;
   
-  background-color:white;
+  border-collapse: collapse;
+  background-color:#0f0f0f;
+  size: 80%;
+  
 }
 table .forimg{
   background-color: white;
@@ -79,18 +82,31 @@ table .forimg{
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
+  margin: 0;
   padding: 1px;
   border-color: blue;
   text-align: center;
-} 
+}   
 th
 {
-  color: red;
+  color: aqua;
+  background: black;
+  
 }
 tr{
-  color: rgb(1, 22, 22);
+  color: rgb(194, 241, 241);
 }
+
+@media (max-width: 400px) {
+    table {
+      font-size: 15px;
+    }
+
+    th, td {
+      padding: 2px;
+    }
+  }
+
 
 
  body {
@@ -151,11 +167,14 @@ nav a:hover {
   margin: 0;
   padding-top: 50px;
   
+  
 }
 .logo img{
-  max-width: 315px;
+  max-width: 615px;
   height: 20vh;
   text-align: center;
+  
+  width: 100%;
   
   padding: 5px 5px;
   margin: 0 ;
@@ -165,3 +184,30 @@ nav a:hover {
   border: 0;
   padding: 0;
   background-color: white;}
+
+  #resultsTable {
+    width: 100vh;
+    text-align:center ;
+  }
+  #resultsTable .subb{
+    
+    width:50%;
+  }
+  #resultsTable .inter{
+    width:5%;
+    max-width: 120px;
+  }
+   #resultsTable .ra{
+    width:10%;
+
+   }
+    #resultsTable .credits{
+      width: 10%;
+    }
+    #resultsTable .grade{
+      width: 10%;
+    }
+    #resultTable .Remarks{
+      width: 40%;
+      display: none;
+    }
