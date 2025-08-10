@@ -21,37 +21,23 @@
       }
     }
   }
-
+if (input === "") {
+  alert("Please Enter your Roll Number");
+  
+}
     
 
 
   // Show table if result found, otherwise hide it
   table.style.display = found ? "table" : "none";
 
-  if (!found && input !== "") {
-    alert("No results found for Roll Number: " + input);
+  
 
-    if (input=="23F91A05F7") {
-      alert("THE NUMBER HAS BEEN DETAINED : " + input) ;
-    }
-   
-    if (input=="23F91A05H1") {
-      alert("THE NUMBER HAS BEEN DETAINED  : " + input) ;
-    }
-    if (input=="23F91A05I8") {
-      alert("THE NUMBER HAS BEEN DETAINED  : " + input) ;
-    }
-    if (input=="23F91A05J1") {
-      alert("THE NUMBER HAS BEEN DETAINED  : " + input) ;
-    }
-    else
-    {
-      alert("this site onlybuild for CSE3");
+  
+    if(!found && input !== "") {
+    alert("No results found for Roll Number: " + input);
     }
     
-  }
-}
-if (input === "") {
-  alert("Please Enter your Roll Number");
-  
-}
+    
+  }   
+
