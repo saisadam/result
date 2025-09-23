@@ -45,8 +45,8 @@ result/
 │── verify.html      # Google Search Console verification
 │── README.md        # Documentation
 
-6. Screenshots of Result Site
- Screenshot_20250924_012515.jpg
+6.
+  ![Screenshots of Result Site](Screenshot_20250924_012515.jpg)
 
 Roll Number Search Result:
 
