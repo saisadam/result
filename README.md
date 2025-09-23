@@ -46,9 +46,10 @@ result/
 │── README.md        # Documentation
 
 6. Screenshots of Result Site
+ Screenshot_20250924_012515.jpg
 
 Roll Number Search Result:
-(Paste your screenshot here)
+
 
 7. SEO & Indexing
 
